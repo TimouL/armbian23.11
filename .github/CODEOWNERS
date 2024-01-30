@@ -45,7 +45,7 @@ config/boards/khadas-vim3l.conf		@rpardini
 config/boards/khadas-vim4.conf		@echatzip @rpardini @viraniac
 config/boards/lafrite.conf		@Tonymac32
 config/boards/lepotato.conf		@Tonymac32
-config/boards/licheepi-4a.wip		@chainsx
+config/boards/licheepi-4a.csc		@chainsx
 config/boards/mangopi-m28k.csc		@sputnik2019
 config/boards/mekotronics-r58-minipc.wip		@monkaBlyat
 config/boards/mekotronics-r58x-4g.wip		@monkaBlyat
