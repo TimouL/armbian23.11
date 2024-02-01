@@ -23,7 +23,7 @@ SKIP_BOOTSPLASH="yes"
 
 case $BOARD in
 	odroidc1)
-		echo "I am v23.11 config/sources/families/include/meson_common.inc"
+		echo "I am v23.11 config/sources/families/include/meson_common.inc lin26 case $BOARD in odroidc1"
 		BOOTDIR='u-boot-odroidc1'
 		BOOTSOURCE='https://github.com/hardkernel/u-boot.git'
 		BOOTBRANCH='branch:odroidc-v2011.03'
@@ -45,7 +45,7 @@ esac
 
 case $BRANCH in
 	current)
-
+		echo "I am v23.11 config/sources/families/include/meson_common.inc lin48 case $BRANCH in current"
 		declare -g KERNEL_MAJOR_MINOR="6.1" # Major and minor versions of this kernel.
 		KERNELBRANCH="tag:v6.1.63"
 		KERNELPATCHDIR='meson-'$BRANCH
