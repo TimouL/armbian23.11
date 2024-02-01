@@ -23,7 +23,7 @@ SKIP_BOOTSPLASH="yes"
 
 case $BOARD in
 	odroidc1)
-
+		echo "I am v23.11 config/sources/families/include/meson_common.inc"
 		BOOTDIR='u-boot-odroidc1'
 		BOOTSOURCE='https://github.com/hardkernel/u-boot.git'
 		BOOTBRANCH='branch:odroidc-v2011.03'
