@@ -19,5 +19,5 @@ console="both"
 # consoleargs=""
 
 # extraargs=""
-
+extraargs=systemd.unified_cgroup_hierarchy=0 apparmor=1 security=apparmor
 # The following contents are auto-generated.
